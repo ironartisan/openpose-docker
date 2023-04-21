@@ -23,7 +23,7 @@ $ sudo docker build -t openpose .
 ```
 ### start docker env.
 ```
-nvidia-docker run -tdi  -v ~/data/:/openpose/data/ --net=host -e DISPLAY --runtime=nvidia  --name=openpose16u18 openpose16u18:latest
+nvidia-docker run -tdi  -v ~/data/:/openpose/data/ --net=host -e DISPLAY --runtime=nvidia  --name=openpose openpose:latest
 
 ```
 
