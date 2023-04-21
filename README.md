@@ -1,4 +1,4 @@
-# openpose
+# openpose-docker
 
 A docker build file for CMU openpose-v1.6.0 with Python API support
 
