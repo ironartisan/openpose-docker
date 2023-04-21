@@ -30,6 +30,6 @@ nvidia-docker run -tdi  -v ~/data/:/openpose/data/ --net=host -e DISPLAY --runti
 ### run examples
 ```
 docker exec -it <images> /bin/bash
-cd /openpose/examples/tutorial_api_python
+cd /openpose/buid/examples/tutorial_api_python
 python3 01_body_from_image.py
 ```
